@@ -1,0 +1,11 @@
+<template name="buzzes">
+	<div class="container">
+	 <p>The winner is:</p>
+			{{#each allBuzzes}}
+			<p>{{name}}</p>
+			{{/each}}
+	  <button class='reset'>
+	  	RESET
+	  </button>
+	</div>
+</template>

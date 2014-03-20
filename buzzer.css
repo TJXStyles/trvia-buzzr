@@ -1,0 +1,58 @@
+/* CSS declarations go here */
+* {
+	font-family: Helvetica;
+}
+
+.loser, .winner, .buzz {
+  font-size:100%;
+  width: 80vw;
+  height: 50vh;
+  color:#fff;
+  border: none;
+  text-shadow:1px 1px 1px #111;
+}
+
+.reset {
+	color: #fff;
+	border: none;
+	text-shadow:1px 1px 1px #111;
+	background-color: #3498db;
+	height: 10vh;
+	width: 25vw;
+}
+
+.buzz {
+	background-color:#c0c0c0;
+}
+
+.winner {
+  background-color: #2ecc71;
+}
+
+.loser {
+	background-color: #e74c3c;
+}
+
+.container {
+	margin: 20px auto;
+	max-width: 100%;
+	text-align: center
+}
+
+label {
+	margin: 10px;
+}
+
+.button {
+	width: 100%;
+	margin: 0 auto;
+	font-size: 10vw;
+}
+
+li {
+	list-style: none;
+}
+
+.name {
+	margin: 2%;
+}
